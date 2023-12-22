@@ -3,7 +3,7 @@ import Spline from '@splinetool/react-spline';
 
 export default function App() {
   return (
-   <div className="h-screen md:flex flex-col justify-evenly items-center bg-[#2d2e32]">
+   <div className="h-screen md:flex-row flex  flex-col justify-evenly items-center bg-[#2d2e32]">
     <div className="text-7xl">
       Ladybug
     </div>
