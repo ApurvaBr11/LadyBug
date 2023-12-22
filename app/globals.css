@@ -2,26 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.popout{
+    position: fixed;
+    right: 0;
+    background: rgb(0, 255, 0);
+    top: 0;
+    height: 1px;
+    transform-origin: left;
+    border-radius: 50%;
+    scale: 0 1;
+    z-index: 9999;
+    width: 100%;
+    animation: identifier linear;
+    animation-timeline: scroll();
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes identifier {
+    to{
+        scale: 1 1;
+    }
 }
