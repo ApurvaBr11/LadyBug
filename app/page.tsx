@@ -1,7 +1,7 @@
 'use client'
 import Thunder from '@/components/Thunder'
 
-const home = () => {
+const homepage = () => {
   return (
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
       <div className="w-full text-white text-7xl p-8 font-bold">
@@ -15,4 +15,4 @@ const home = () => {
   )
 }
 
-export default home
+export default homepage
