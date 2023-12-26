@@ -21,3 +21,32 @@
         scale: 1 1;
     }
 }
+
+/* .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: url('../public/svg.svg'); /* Reference the clipPath ID below */
+
+  
+  
+  .image {
+    -webkit-mask-image: url('../public/svg.svg');
+    -webkit-mask-size: 1300px;
+    -webkit-mask-repeat: no-repeat;
+  }
+   
