@@ -6,7 +6,7 @@ const homepage = () => {
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
       <div className="w-full text-white text-7xl p-8 font-bold">
         <p>If</p>
-        <p>You don't feel the 'blaze'</p>
+        <p>You don't feel the blaze</p>
       </div>
       <div className=' h-screen w-full flex justify-end items-end'>
       <Thunder/>
