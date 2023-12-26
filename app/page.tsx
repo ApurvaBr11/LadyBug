@@ -1,5 +1,5 @@
-'use client'
-import Thunder from '@/components/Thunder'
+'use client';
+import Thunder from "@/components/Thunder";
 
 const homepage = () => {
   return (
@@ -8,11 +8,11 @@ const homepage = () => {
         <p>If</p>
         <p>You don't feel the blaze</p>
       </div>
-      <div className=' h-screen w-full flex justify-end items-end'>
-      <Thunder/>
+      <div className=" h-screen w-full flex justify-end items-end">
+        <Thunder />
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default homepage
+export default homepage;
