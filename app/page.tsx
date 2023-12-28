@@ -4,7 +4,7 @@ import Thunder from "@/components/Thunder";
 
 const homepage = () => {
   return (
-    <div className="min-h-screen w-full bg-black flex justify-center items-center px-32">
+    <div className="min-h-screen w-full bg-black flex justify-center items-center px-40">
       <div className="w-full text-white text-7xl p-8 font-bold">
         <p>If</p>
         <p>You dont feel the blaze</p>
